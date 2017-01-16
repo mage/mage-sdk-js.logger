@@ -1,0 +1,24 @@
+{
+  "name": "mage-sdk-js.logger",
+  "version": "1.0.0",
+  "description": "## Installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mage/mage-sdk-js.logger.git"
+  },
+  "author": "Ron Korving <rkorving@wizcorp.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mage/mage-sdk-js.logger/issues"
+  },
+  "homepage": "https://github.com/mage/mage-sdk-js.logger#readme",
+  "dependencies": {
+    "events.js": "^0.1.4",
+    "stacktrace-js": "^0.6.2",
+    "unique-selector": "0.0.4"
+  }
+}
