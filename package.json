@@ -1,10 +1,10 @@
 {
   "name": "mage-sdk-js.logger",
-  "version": "1.0.1",
-  "description": "## Installation",
+  "version": "0.1.0",
+  "description": "MAGE logger module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
     "events.js": "^0.1.4",
     "stacktrace-js": "^0.6.2",
     "unique-selector": "0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "pre-commit": "^1.2.2"
   }
 }
